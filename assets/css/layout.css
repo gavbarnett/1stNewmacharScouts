@@ -1,0 +1,61 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.splash { 
+    grid-area: splash; 
+    background-color: #000000;
+    opacity: 0.4;
+}
+.sections { 
+    grid-area: sections;
+    background-color: #490499; 
+    font-size: 1rem;
+    font-weight: 700 !important;
+}
+.volunteer { 
+    grid-area: volunteer;
+    background-color: #000000;
+    font-size: 1rem;
+    font-weight: 700 !important; 
+}
+
+
+.grid-container {
+  display: grid;
+  max-width: 1000px; 
+  margin: auto;
+  grid-template-columns: 66% auto;
+  grid-template-areas:
+    'splash sections'
+    'splash sections'
+    'splash volunteer';
+  grid-gap: 0px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  color: #ffffff;
+}
+
+.top-area{
+    width: 100%;
+}
+
+.table{
+    width: 100%;
+}
+td:first-child {
+    text-align: right;
+}
+td:nth-child(2) {
+    text-align: center;
+    padding-left: 5px;
+    padding-left: 5px;
+    font-weight: normal; 
+}
+td:nth-child(3) {
+    text-align: left;
+}
