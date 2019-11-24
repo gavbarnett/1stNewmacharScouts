@@ -116,7 +116,8 @@ footer{
     .grid-footer {
         display: grid;
         margin: auto;
-        grid-template-columns: 33% 33% auto;
+        max-width: 1200px; 
+        grid-template-columns: auto auto auto;
         grid-template-areas:
             'contactGroup contactSections websites';
         padding: 10px;
