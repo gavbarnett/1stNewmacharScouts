@@ -6,9 +6,33 @@ body {
 header{
     padding: 0%;
 }
+footer{
+    background-color: #490499;
+    color: #ffffff;
+    line-height: 1;
+    padding: 10px;
+}
+address{
+    font-style: normal;
+}
+a {
+    color: #ffffff;
+}
 h1 {
     font-weight: 900;
     font-size: 2.75rem;
+}
+h2 {
+    font-weight: 900;
+    font-size: 2rem;
+}
+h3 {
+    font-weight: 900;
+    font-size: 1.75rem;
+}
+h4 {
+    font-weight: 900;
+    font-size: 1.5rem;
 }
 .splash { 
     grid-area: splash; 
@@ -39,7 +63,7 @@ h1 {
 
     .grid-container {
         display: grid;
-        max-width: 1000px; 
+        max-width: 955px; 
         margin: auto;
         grid-template-columns: auto;
         grid-template-areas:
@@ -56,7 +80,7 @@ h1 {
     /* Styles */
     .grid-container {
         display: grid;
-        max-width: 1000px; 
+        max-width: 955px; 
         margin: auto;
         grid-template-columns: 50% 50%;
         grid-template-areas:
@@ -71,7 +95,7 @@ h1 {
     /* Styles */
     .grid-container {
         display: grid;
-        max-width: 1000px; 
+        max-width: 955px; 
         margin: auto;
         grid-template-columns: 66% auto;
         grid-template-areas:
@@ -99,16 +123,33 @@ h1 {
 }
 td{
     height: 3rem;
+    table-layout: fixed;
 }
-td:first-child {
+td:nth-child(1) {
+    width: 40%;
     text-align: right;
+    padding-left: 5px;
+    padding-left: 5px;
+    font-weight: normal; 
 }
 td:nth-child(2) {
+    width: 10%;
     text-align: center;
     padding-left: 5px;
     padding-left: 5px;
     font-weight: normal; 
 }
 td:nth-child(3) {
+    width: 40%;
     text-align: left;
+    padding-left: 5px;
+    padding-left: 5px;
+    font-weight: normal; 
 }
+.footer-logo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
