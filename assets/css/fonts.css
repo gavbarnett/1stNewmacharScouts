@@ -10,6 +10,10 @@ a{
     color: #404040;
     text-decoration: none;
 }
+.top-area a {
+    color: #ffffff;
+    text-decoration: none;
+}
 footer a {
     color: #ffffff;
     text-decoration: none;
