@@ -18,6 +18,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i,900,900i" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="assets/css/layout.css"/>
 		<link rel="stylesheet" type="text/css" href="assets/css/fonts.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/slideshow.css"/>
 
 	</head>
 	<body>
@@ -38,6 +39,7 @@
 			<h1>1st Newmachar Cubs</h1>
 			<h6>Find out what the Newmachar Cubs have been getting up to!</h6>
 		</div>
+
 		<div class="contentWall">
 			<a href="https://www.1stnewmacharscouts.org/cubs/blogs">
 				<div class="contentBrick" >
@@ -49,6 +51,77 @@
 				</div>
 			</a>
 		</div>
+
+		<!-- Slideshow container -->
+		<div class="slideshow-container">
+
+			<!-- Full-width images with number and caption text -->
+			<div class="mySlides fade">
+			<div class="numbertext">1 / 9</div>
+			<img src="assets\images\posters\Alex.jpg" style="width:100%">
+			<div class="text">Alex</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 9</div>
+				<img src="assets\images\posters\Charlie.jpg" style="width:100%">
+				<div class="text">Charlie</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 9</div>
+				<img src="assets\images\posters\Josh.jpg" style="width:100%">
+				<div class="text">Josh</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 9</div>
+				<img src="assets\images\posters\Lewis.jpg" style="width:100%">
+				<div class="text">Lewis</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">5 / 9</div>
+				<img src="assets\images\posters\Logan.jpg" style="width:100%">
+				<div class="text">Logan</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">6 / 9</div>
+				<img src="assets\images\posters\Logan2.jpg" style="width:100%">
+				<div class="text">Logan</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">7 / 9</div>
+				<img src="assets\images\posters\Lucas.jpg" style="width:100%">
+				<div class="text">Lucas</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">8 / 9</div>
+				<img src="assets\images\posters\Struan.jpg" style="width:100%">
+				<div class="text">Struan</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">9 / 9</div>
+				<img src="assets\images\posters\Struan2.jpg" style="width:100%">
+				<div class="text">Struan</div>
+			</div>		
+			
+		
+			<!-- Next and previous buttons -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+		
+		<!-- The dots/circles -->
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+			<span class="dot" onclick="currentSlide(6)"></span>
+			<span class="dot" onclick="currentSlide(7)"></span>
+			<span class="dot" onclick="currentSlide(8)"></span>
+			<span class="dot" onclick="currentSlide(9)"></span>
+		</div>
+		
 	</body>
 	<footer>
 		<img src="assets/images/logos/scouts-stack-white.svg" alt="scout-stack-white" class="footer-logo">
@@ -79,4 +152,5 @@
 			<p><small>This sites code is opensource under MIT licence on <a href="https://github.com/gavbarnett/1stNewmacharScouts"> Github</a></small></p>
 		</div>
 	</footer>
+	<script src="assets/js/slideshow.js"></script>
 </html>
