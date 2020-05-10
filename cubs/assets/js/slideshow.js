@@ -1,14 +1,18 @@
-var slideIndex = 1;
+var slideIndex = 0;
 showSlides(slideIndex);
+var autoslide = setInterval(function() {showSlides(slideIndex += 1)},3000);
 
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
+  clearInterval(autoslide)
+  autoslide = setInterval(function() {showSlides(slideIndex += 1)},3000);
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
+  clearInterval(autoslide)
 }
 
 function showSlides(n) {
@@ -25,4 +29,5 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
+  
 }
