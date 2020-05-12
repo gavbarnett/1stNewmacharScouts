@@ -1,0 +1,62 @@
+/*This is the style sheet for your page that you can edit
+
+You can change the text colours "color", the background colour "background-color" and a few other things. 
+
+## Colors = colours (Americans again!)
+    All colours below are in hex such as #7413dc for scout purple, You can find the standard Scout colurs on page 12 & 13 of https://docs.scoutsbrand.org.uk/guidelines.pdf
+    
+    But you are free to use other colours, you can look them up here: https://www.w3schools.com/colors/colors_picker.asp?colorhex=7413dc
+    or just google "hex color picker"  
+    
+    For simple colors you can just type them. For example "color: red" would work. 
+    You can find the standard colour names here: https://www.w3schools.com/colors/colors_hex.asp 
+
+*/
+
+
+.story-title-box {
+    margin: auto;
+    background: #00a794;
+    color: #FC0502;
+    padding: 0.5em;
+}
+
+.story-page {
+    align-items: center;
+    margin: auto;
+    max-width: 1200px;
+    background: #ffffff;
+    color: #E00F0C;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* This sets the spaceing between paragraphs*/
+.story-page p {
+    margin: 1em 0;
+}
+
+/* This would change the color of all h1 headers in your blog*/
+.story-page h1 {
+    color: #404040;
+}
+
+/* This would change the color of all h2 headers in your blog*/
+.story-page h2 {
+    color: #404040;
+}
+
+.story-page img{
+    display: block;
+    margin: auto;
+    margin-top: 0.5em;
+    max-width: min(100%, 1200px);
+}
+
+footer{
+    background-color: #7413dc;
+    color: #ffffff;
+    line-height: 1.6rem;
+    padding: 10px;
+}
